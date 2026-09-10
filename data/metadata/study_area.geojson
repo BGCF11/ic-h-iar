@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mata de Santa Genebra H-IAR Phase B study polygon",
+        "provenance": "Vertex copy from fase_b_dados.py; not an official reserve boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-47.119989, -22.809194],
+          [-47.126428, -22.819750],
+          [-47.123011, -22.820503],
+          [-47.116847, -22.819675],
+          [-47.115114, -22.821789],
+          [-47.115861, -22.826542],
+          [-47.108186, -22.833247],
+          [-47.104822, -22.833867],
+          [-47.104480, -22.823980],
+          [-47.103386, -22.822903],
+          [-47.1079777, -22.8165861],
+          [-47.119989, -22.809194]
+        ]]
+      }
+    }
+  ]
+}

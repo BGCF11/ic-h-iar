@@ -1,0 +1,19 @@
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.geojson text eol=lf
+*.cff text eol=lf
+src/python/*.py text eol=lf
+*.png binary
+*.pdf binary
+*.tif binary
+*.tiff binary
+
+# Numerical reference files: preserve original bytes through Git LFS.
+data/raw/Extracao_MataSantaGenebra_Integral_Corrigida.csv filter=lfs diff=lfs merge=lfs -text
+results/tables/Resultados_Termografia_SantaGenebra_FaseB.csv filter=lfs diff=lfs merge=lfs -text
+results/tables/resultados_hiar_mc.csv filter=lfs diff=lfs merge=lfs -text
+results/geotiff/Mapa_1_Resiliencia_Global.tiff filter=lfs diff=lfs merge=lfs -text
+results/geotiff/Mapa_2_Dominancia_Vetorial_L1.tiff filter=lfs diff=lfs merge=lfs -text
+results/geotiff/Mapa_3_RMSE_Infravermelho_B8.tiff filter=lfs diff=lfs merge=lfs -text
+results/geotiff/Mapa_4_Gradiente_Morfologico.tiff filter=lfs diff=lfs merge=lfs -text

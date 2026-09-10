@@ -1,0 +1,3 @@
+# Additional requirements for the Earth Engine extraction and pilot drivers.
+-r requirements.txt
+earthengine-api

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research software, cite this repository and identify the commit or archived release used."
+type: software
+title: "H-IAR: Quaternion Autoregression for Irregular Multispectral Time Series"
+authors:
+  - family-names: "Gonçalves C. Filho"
+    given-names: "Bruno"
+  - family-names: "Bianchi"
+    given-names: "Angelo Calil"
+  - family-names: "Pinheiro"
+    given-names: "Aluísio de Souza"
+repository-code: "https://github.com/BGCF11/ic-h-iar"
+url: "https://github.com/BGCF11/ic-h-iar"
+keywords:
+  - irregular time series
+  - quaternion autoregression
+  - Kalman filter
+  - Monte Carlo
+  - Sentinel-2

@@ -1,0 +1,9 @@
+# Direct dependencies for local estimation, Monte Carlo and raster export.
+# Package versions are unpinned; see docs/REPRODUCING.md.
+numpy
+scipy
+numba
+pandas
+matplotlib
+tqdm
+rasterio
